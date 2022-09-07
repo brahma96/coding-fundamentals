@@ -1,0 +1,234 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(ranger-4df6c1b6.png);
+    padding-bottom: 20px;
+}
+
+.navibar{
+    background-color: azure;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navi-left, .navi-right{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.header{
+    /* background-color: azure; */
+    padding: 20px 20px;
+    margin-top: 10px;
+    background-image: url(web-designer.jpg);
+    background-size: cover;
+}
+
+.logo-box{
+
+}
+
+.pages-box{
+
+}
+
+.login-box{
+    
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.logo img{
+    width: 40px;
+    height: auto;
+}
+
+.pages-list{
+    display: flex;
+    list-style: none;
+}
+
+/* .pages-list ul{
+    padding-inline-start: 0px;
+} */
+
+ul{
+    padding-inline-start: 10px;
+}
+
+.pages-list li{
+    padding: 5px 10px 5px 10px;
+    margin: 0px 10px 0px 10px;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+
+.pages-list li a{
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+.login{
+    padding: 5px 10px 5px 10px;
+    margin: 0px 50px 0px 10px;
+    border: 1px solid gray;
+    background-color: darkgoldenrod;
+    border-radius: 6px;
+}
+
+.login a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.header h1{
+    font-weight: bold;
+}
+
+.header h5{
+    font-weight: 400;
+    width: 70%;
+}
+
+.section{
+    background-color: aliceblue;
+    margin-top: 20px;
+    display: flex;
+}
+
+.column1{
+    /* background-color:darkcyan; */
+    background-image: url(istockphoto-1181693866-612x612.jpg);
+    flex: 1;
+    padding: 0px 60px;
+}
+
+.column2{
+    background-color: whitesmoke;
+    flex: 2;
+    padding: 0px 40px;
+}
+
+.column1 img{
+    width: 25px;
+}
+
+.contact-1, .contact-2, .contact-3, .contact-4, .contact-5{
+    margin: 40px 0px;
+    color: white;
+}
+
+.contact-2{
+
+}
+
+.contact-3{
+    display: flex;
+}
+
+.contact-4{
+    display: flex;
+}
+
+.contact-5{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.contact-3-phonelogo, .contact-4-emaillogo{
+    width: 40px;
+}
+
+.contact-5-fblogo, .contact-5-githublogo, .contact-5-twitterlogo{
+    margin-right: 20px;
+}
+
+/* .firstname-lastname{
+    display: flex;
+}
+
+.firstname{
+    background-color: blue;
+    flex: 50%;
+}
+
+.lastname{
+    background-color: brown;
+    flex: 50%;
+} */
+
+.entryrow{
+    margin: 10px 0px;
+    display: flex;
+}
+
+/* .half{
+    display: flex;
+}
+
+.full{
+    display: inline;
+} */
+
+.entry{
+    flex: 1;
+    /* background-color: blue; */
+    display: inline;
+    margin-right: 20px;
+}
+
+/* .secondhalf-entry{
+    flex: 1;
+    background-color: brown;
+} */
+
+.label-option{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.label{
+    /* background-color: green; */
+}
+
+.option{
+    /* background-color: blueviolet; */
+}
+
+.inputbox{
+    display: flex;
+}
+
+.inputbox input, textarea{
+    flex: 100%;
+    min-width: 180px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    padding: 5px 5px;
+}
+
+.submit{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.submit input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid cadetblue;
+    background-color: cadetblue;
+    color: white;
+    cursor: pointer;
+}
+
